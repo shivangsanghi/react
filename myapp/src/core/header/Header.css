@@ -1,0 +1,28 @@
+.Header{
+    height: 50px;
+    overflow: hidden;
+}
+
+.Header nav{
+    background: antiquewhite;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;  
+}
+
+.Header nav .item a{
+    background: #675265;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    height: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.Header nav .item.active a{
+    background: rgb(139, 153, 13);
+}
